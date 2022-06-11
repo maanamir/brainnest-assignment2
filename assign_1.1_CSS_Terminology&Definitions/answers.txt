@@ -1,0 +1,133 @@
+CSS
+1. What are the main differences between external, internal, and inline CSS?
+
+
+	-> External css: - An external stylesheet gets linked via a link tag in the HTML.
+			<link rel="stylesheet" href="style.css" /> 
+
+	-> Internal css: - An Internal styles are applied within style tags within the head tags of an HTML file.
+			<head> 
+				<style> 
+					p {color: red;} 
+				</style> 
+			</head>
+
+	-> Inline css: - An Inline style is applied directly in the HTML.
+			<h1 style=”color: red;”>Red</h1> 
+
+2. What is the syntax for class and ID selectors?
+
+	-> <!--class--> 
+		.class{
+		color: yellow;
+		}
+	-> <!--ID-->
+		#id{
+		color:red;
+		}
+
+3. How would you apply a single rule to two different selectors?
+
+	-> Using Grouping Selectors
+
+4. Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+
+	-> #title, .primary{  }
+
+5. What does the descendant combinator do?
+
+	-> Combinators allow us to combine multiple selectors differently than either grouping or chaining them.
+
+6. Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+
+	-> class selector.
+
+7. From inside to outside, what is the order of box-model properties?
+
+	-> CPBM, which stands for Content, padding, border, margin.
+
+8. What does the box-sizing CSS property do?
+
+	-> The box-sizing property allows us to include the padding and border in an element's total width and height.
+
+9. What is the difference between the standard and alternative box model?
+
+	-> 
+
+10. Would you use margin or padding to create more space between 2 elements?
+
+	-> Margin
+
+11. Would you use margin or padding to create more space between the contents of an element and its border?
+
+	-> Padding
+
+12. Would you use margin or padding if you wanted two elements to overlap each other?
+
+	-> Margin
+
+13. What is the difference between a block element and an inline element?
+
+	-> Block Element:  Every new Element starting on new line.
+
+	-> Inline Element: Every new Element appears in line rather than the same line. 
+ 
+14. What is the difference between an inline element and an inline-block element?
+
+	-> Padding and margins of an inline element behaves differently than the block element. 
+	-> Padding and margins of an inline-block element behaves same like block elements. 
+
+15. Is an h1 block or inline?
+
+	-> Block
+
+16. Is button block or inline?
+	
+	-> inline-block
+
+17. Is div block or inline?
+
+	-> Block 
+
+18. Is span block or inline?
+
+	-> Inline
+
+19. What’s the difference between a flex container and a flex item?
+
+	-> flex item is any element that’s located inside the flex container.
+
+	-> A flex container is any element that has the property display: flex on it.
+
+
+20. How do you create a flex item?
+
+	-> By making its parent element a flex container( add display: flex on it).  
+
+21. What are the 3 values defined in the shorthand flex property?
+
+	-> flex-grow , flex-shrink, flex-basis
+
+22. How do you make flex items arrange themselves vertically instead of horizontally?
+
+	-> by using the property align-items
+
+23. What is the difference between justify-content and align-items?
+
+	-> justify-content arrange flex items horizontally while align-items deals with it vertically.
+
+24. How do you use flexbox to completely center a div inside a flex container?
+
+	-> .flex-container{
+
+    	     display: flex;
+    	     justify-content: center;
+    	     align-items: center;
+			
+    	   }
+
+25. What’s the difference between justify-content: space-between and justify-content: space-around?
+
+	-> justify-content: space-between is items display with equal spacing between them.
+
+	-> justify-content: space-around is items display with equal spacing around them.

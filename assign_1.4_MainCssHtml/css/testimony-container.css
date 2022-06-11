@@ -1,0 +1,30 @@
+.testimony-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 60vh;
+}
+
+.testimony-container  p{
+    
+width:59%;
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+font-weight: 300;
+font-style: italic;
+margin-bottom: 0;
+
+
+}
+
+
+.testimony-container  h3{
+    width: 53%;
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+}
+
+

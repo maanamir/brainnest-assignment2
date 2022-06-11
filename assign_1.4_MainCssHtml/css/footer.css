@@ -1,0 +1,16 @@
+
+.footer {
+    background-color: #1F2937;
+    margin-top: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer h1{
+color: #f9faf8;
+font-size: 12px;
+font-weight: 300;
+}
